@@ -1,8 +1,9 @@
-import React from 'react'
 
-function Card ({props}) {
-    console.log(props.username);
 
+  export const Card = () => {
+  return <div>This is Card</div>;
+
+function Card () {
 return(
     <>
     <div className="flex flex-col rounded-xl  p-4"
@@ -12,7 +13,7 @@ return(
           backdropFilter: 'saturate(180%) blur(14px)',
           background: ' #ffffff0d',
         }}
-      >
+      >                                                                                                    
         <div>
           <img
             src="https://res.cloudinary.com/ddcg0rzlo/image/upload/v1652470298/9StaF0UBJfih_df0248.gif"
@@ -37,3 +38,6 @@ return(
       </>
 )
 }
+ };
+export default Card;
+ 
